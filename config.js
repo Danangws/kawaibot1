@@ -1,14 +1,14 @@
 let fs = require('fs')                    //CREATOR = GEMPY , DEVBOT
 let chalk = require('chalk')
 global.owner = [
-  ['6287898307350'],
-  ['66287898307350'],
-  ['6287898307350', 'gempy', true]  
+  [ '6285715690172' ],
+  [ '6285715590172' ],
+  ['6285715590172', 'danang.w.s'
   
 ] 
-global.ownername = [['Gempy']]
-global.namabot = [['PENTABOT']]
-global.ownerinsta = [['@gmpyyy']]
+global.ownername = [['danang.w.s']]
+global . namabot  = [[ 'Kawaii_botz™✓' ]]
+global . pemilikinsta  = [[ '@danang.w.s' ]]
 global.mods = [] 
 global.prems = [] 
 
@@ -43,8 +43,8 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = 'PENTABOT'
-  var sticker_author = 'By GEMPY'
+  var sticker_name = 'kawaii_botz™✓'
+  var sticker_author = 'By Danang.ws'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
